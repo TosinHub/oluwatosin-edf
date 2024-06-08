@@ -1,0 +1,11 @@
+{
+  "name": "oluwatosin-edf",
+  "version": "1.0.0",
+  "description": "EDF ASSESSTMENT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oluwatosin Gbenga",
+  "license": "ISC"
+}
