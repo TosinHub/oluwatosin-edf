@@ -1,6 +1,7 @@
-const BookSearchApiClient = require("./BookSearchApiClient.js");
+import BookSearchApiClient from "./controllers/BookSearchApiClient";
+import { ApiConfig } from "./types/book";
 
-const apiConfig = {
+const apiConfig: ApiConfig = {
   sellers: [
     {
       name: "BookSeller1",
@@ -30,6 +31,6 @@ const client = new BookSearchApiClient(apiConfig);
     const booksByYear = await client.getBooksByYear(2023, 10);
     console.log("Books by Year:", booksByYear);
   } catch (error) {
-    console.error("Error:", error.message);
+    console.error("Error:", (error as Error).message);
   }
 })();

@@ -1,3 +1,4 @@
+import { ApiConfig, Book, QueryParams } from "../types/book";
 import { formatUrlPath, formatResponseType } from "../utils/url.utils";
 
 /**

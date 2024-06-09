@@ -1,7 +1,7 @@
 /**
  * Interface representing a book seller's configuration.
  */
-interface Seller {
+export interface Seller {
   name: string;
   baseUrl: string;
   format: ApiResponseType;
@@ -10,14 +10,14 @@ interface Seller {
 /**
  * Interface representing the API configuration.
  */
-interface ApiConfig {
+export interface ApiConfig {
   sellers: Seller[];
 }
 
 /**
  * Interface representing book information.
  */
-interface Book {
+export interface Book {
   title: string;
   author: string;
   isbn: string;
@@ -28,6 +28,6 @@ interface Book {
 /**
  * Utility type for query parameters.
  */
-interface QueryParams {
+export interface QueryParams {
   [key: string]: string | number;
 }
