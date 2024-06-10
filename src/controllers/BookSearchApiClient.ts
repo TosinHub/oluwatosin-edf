@@ -1,5 +1,6 @@
 import { ApiConfig, Book, QueryParams } from "../types/book";
 import { formatUrlPath, formatResponseType } from "../utils/url.utils";
+import { DOMParser } from "xmldom";
 
 /**
  * Class representing a client for searching books.
@@ -96,7 +97,7 @@ class BookSearchApiClient {
         const parsedData = this.parsers[seller.format](data);
         results.push(...parsedData);
       } catch (error) {
-        console.error(`Error fetching books from ${seller.name}:`, error);
+       // console.error(`Error fetching books from ${seller.name}:`, error);
       }
     }
 
