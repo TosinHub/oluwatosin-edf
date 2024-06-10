@@ -16,7 +16,7 @@ This project is a client for searching books from different sellers based on aut
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/oluwatosin-edf.git
+    git clone https://github.com/TosinHub/oluwatosin-edf.git
     ```
 2. Navigate to the project directory:
     ```bash
