@@ -33,4 +33,4 @@ This project is a client for searching books from different sellers based on aut
 
 The project uses Jest for testing. To run the tests, use the following command:
 ```bash
-npm test
+npm run test
